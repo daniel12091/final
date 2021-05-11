@@ -20,7 +20,7 @@ module	game_controller	(
 
 // drawing_request_Ball   -->  smiley
 // drawing_request_1      -->  brackets
-// drawing_request_2      -->  number/box lavi is here
+// drawing_request_2      -->  number/box 
 
 
 assign collision = ( drawing_request_Ball && ( drawing_request_1 || drawing_request_rect) );// any collision 
